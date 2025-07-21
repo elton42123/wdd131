@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A responsive photo album of temples around the world." />
+  <meta name="author" content="Isabirye Elton" />
+  <title>Temple Album</title>
+  <link rel="stylesheet" href="styles/temples.css" />
+  <link rel="stylesheet" href="styles/temples-large.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Temple Album</h1>
+    <button id="menuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Old</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Large</a></li>
+        <li><a href="#">Small</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Temples of the World</h1>
+    <section class="gallery">
+      <figure>
+        <img src="images/temple1.webp" alt="Mahabodhi Temple, India" loading="lazy" />
+        <figcaption>Mahabodhi Temple – India</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple2.jpg" alt="Angkor Wat, Cambodia" loading="lazy" />
+        <figcaption>Angkor Wat – Cambodia</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple3.jpg" alt="Wat Arun, Thailand" loading="lazy" />
+        <figcaption>Wat Arun – Thailand</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple4.webp" alt="Shwedagon Pagoda, Myanmar" loading="lazy" />
+        <figcaption>Shwedagon Pagoda – Myanmar</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple5.webp" alt="Temple of Heaven, China" loading="lazy" />
+        <figcaption>Temple of Heaven – China</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple6.jpg" alt="To-ji Temple, Japan" loading="lazy" />
+        <figcaption>To-ji Temple – Japan</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple7.webp" alt="Boudhanath Stupa, Nepal" loading="lazy" />
+        <figcaption>Boudhanath Stupa – Nepal</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple8.jpg" alt="Borobudur, Indonesia" loading="lazy" />
+        <figcaption>Borobudur – Indonesia</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple9.jpg" alt="Karnak Temple, Egypt" loading="lazy" />
+        <figcaption>Karnak Temple – Egypt</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Isabirye Elton | Uganda</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
