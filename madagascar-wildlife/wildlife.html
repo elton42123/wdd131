@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madagascar's Wildlife</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Madagascar's Wildlife</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="wildlife.html">Wildlife</a>
+      <a href="conservation.html">Conservation</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Meet Madagascar’s Most Iconic Creatures</h2>
+      <p>From lemurs to colorful chameleons, here are a few of the island's stars.</p>
+    </section>
+
+    <section class="cards" id="animal-cards">
+      <!-- Animal cards will be injected via JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Isabirye Elton | <a href="references.html">References</a></p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
+  <script src="js/script.js"></script>
+</body>
+</html>
