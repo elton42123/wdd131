@@ -64,7 +64,7 @@ const temples = [
     imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-13760-main.jpg" 
   },
   {
-    templeName: "Nirobi Kenya",
+    templeName: "Nairobi Kenya",
     location: "Nairobi, Kenya",
     dedicated: "2021, April, 17",
     area: 10000,
