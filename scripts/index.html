@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Dynamic Web Fundamentals - Rubia M. Francesco</title>
+    <meta name="description" content="Portfolio website for Rubia M. Francesco - Dynamic Web Fundamentals" />
+    <meta name="author" content="Rubia M. Francesco" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/base.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Rubia M. Francesco</span></h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" onclick="showMessage('LinkedIn')">LinkedIn</a>
+        <a href="#" onclick="showMessage('Canvas')">Canvas</a>
+        <a href="#" onclick="showMessage('Scripture')">Scripture</a>
+        <a href="#" onclick="showMessage('Final Project')">Final Project</a>
+    </nav>
+
+    <main>
+        <div class="card">
+            <h2 class="card-title">About Me</h2>
+            <div class="card-content">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I'm Rubia M. Francesco, a passionate learner diving into the exciting world of web development. Currently enrolled in WDD 131: Dynamic Web Fundamentals, I'm building my skills in HTML, CSS, and JavaScript to create engaging and interactive web experiences.</p>
+                        
+                        <p>My journey in web development is driven by curiosity and a desire to bring creative ideas to life through code. I enjoy exploring new technologies and finding innovative solutions to design challenges.</p>
+                    </div>
+                    <img src="../images/me.jpg" alt="Portrait of Elton" class="profile-pic">
+                </div>
+                
+                <hr>
+                
+                <h3 class="location-title">🌍 About Madagascar</h3>
+                <div class="location-content">
+                    <div class="flag-container">
+                        <img src="../images/uganda-flag.png" alt="Flag of Uganda">
+                        <span class="flag-caption">Flag of Madagascar</span>
+                    </div>
+                    <div class="location-text">
+                        <p>Madagascar, the world's fourth-largest island, is a biodiversity hotspot located off the coast of East Africa. Known as the "eighth continent" due to its unique wildlife, Madagascar is home to species found nowhere else on Earth, including lemurs, fossas, and over 1,000 species of orchids.</p>
+                        
+                        <p>The island's diverse landscapes range from tropical rainforests to arid deserts, making it a fascinating place with rich cultural heritage and natural wonders that continue to amaze researchers and visitors alike.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resources Card -->
+        <div class="card">
+            <h2 class="card-title">Web Dev Resources</h2>
+            <div class="card-content">
+                <ul class="resources-list">
+                    <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                    <li><a href="https://placeholder.com" target="_blank">Image Placeholder</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>©2025 🌸 Rubia Magdelena Francesco 🌸 Madagascar</p>
+        <p class="last-modified">Last modification: <span id="lastModified"></span></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
