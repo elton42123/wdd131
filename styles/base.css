@@ -303,11 +303,7 @@ footer p {
     color: black;
   }
   
-  header, footer {
-    background-color: #23476c !important;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
+  
   
   nav {
     display: none;
