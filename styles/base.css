@@ -1,3 +1,8 @@
+/* ===================================
+   WDD 131: Dynamic Web Fundamentals 
+   Rubia M. Francesco Portfolio CSS
+   =================================== */
+
 /* Reset and Base Styles */
 * {
   box-sizing: border-box;
@@ -303,7 +308,11 @@ footer p {
     color: black;
   }
   
-  
+  header, footer {
+    background-color: #23476c !important;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
   
   nav {
     display: none;
